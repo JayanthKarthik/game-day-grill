@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  .main {
+    background-color: #222;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .content {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .main {
+    background-color: #ffffff;
+  }
+
+  .content {
+    color: #666666;
+  }
+}
