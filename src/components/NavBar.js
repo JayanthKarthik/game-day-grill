@@ -25,8 +25,6 @@ export default function NavBar() {
                     <Button className={styles.content} href="/menu">Menu</Button>
                     <Button className={styles.content} href="/contact">Contact</Button>
                     <Button className={styles.content} href="/reservation"> Reservation</Button >
-                    <Button className={styles.content} href="/aboutus"> AboutUs</Button >
-
                 </Stack >
             </Toolbar >
         </AppBar >
