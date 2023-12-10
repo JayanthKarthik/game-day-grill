@@ -1,12 +1,11 @@
 import styles from "../styles/MenuItem.module.css";
 
-export default function MenuItem({ name, img, desc, price }) {
+export default function MenuItem({ image, name, price }) {
     return (
-        <div>
-            <p>{name}</p>
-            <img src={img} width={600} ></img>
-            <p className={styles.desc}> {desc}</p>
-            <p className={styles.price}> {price}</p>
+        <div className={styles.MenuItem}>
+            <img src={image} width="350px"></img>
+            <h1> {name} </h1>
+            <p> ${price} </p>
         </div>
-    )
+    );
 }
