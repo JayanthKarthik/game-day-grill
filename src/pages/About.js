@@ -1,18 +1,9 @@
 import { Stack } from "@mui/system";
 import styles from "../styles/AboutUs.module.css";
 
-export default function home() {
+export default function About() {
     return (
         <div>
-            <div className={styles.backgroundImg}>
-                <div className={styles.backgroundContent}>
-                    <h1 className={styles.headingPrimary}>
-                        <span>welcome</span> to game day grill
-                    </h1>
-
-                </div>
-
-            </div>
             <Stack direction="column" alignItems="center">
                 <h1 className={styles.title}>
                     Our Culinary Journey
@@ -76,6 +67,5 @@ export default function home() {
                 </p1>
 
             </Stack>
-        </div >
-    )
+        </div >)
 }
