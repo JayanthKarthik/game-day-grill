@@ -13,11 +13,15 @@ export default function Menu() {
                             key={key}
                             image={menuItem.image}
                             name={menuItem.name}
-                            price={menuItem.price}
-                        />
+                            description={menuItem.description}
+                            price={menuItem.price} />
                     );
                 })}
             </div>
+            <br></br>
+            <p></p>
+            <br></br>
+            <p></p>
         </div>
     );
 }

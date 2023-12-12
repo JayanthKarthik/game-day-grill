@@ -1,6 +1,5 @@
 import "../styles/Contact.Module.css";
 import sideImage from "../assets/Backgrounds/contact-background-1.png";
-
 export default function Contact() {
     return (
         <div className="contact">
@@ -10,8 +9,7 @@ export default function Contact() {
             ></div>
             <div className="rightSide">
                 <h1> Contact Us</h1>
-
-                <form id="contact-form" method="POST">
+                <form>
                     <label htmlFor="name">Full Name</label>
                     <input name="name" placeholder="Enter full name..." type="text" />
                     <label htmlFor="email">Email</label>

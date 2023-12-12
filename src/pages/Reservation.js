@@ -1,3 +1,4 @@
+
 export default function Reservation() {
-    return <h1>reservation</h1>
+    return <h1>Reservation</h1>
 }

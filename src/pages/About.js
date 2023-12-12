@@ -1,5 +1,10 @@
 import { Stack } from "@mui/system";
-import styles from "../styles/AboutUs.module.css";
+import styles from "../styles/AboutUs.Module.css";
+import adventure from "../assets/Backgrounds/About/adventure.jpg";
+import atmosphere from "../assets/Backgrounds/About/atmosphere.jpg";
+import excellence from "../assets/Backgrounds/About/excellence.jpg";
+import infused from "../assets/Backgrounds/About/infused.jpg";
+import journey from "../assets/Backgrounds/About/journey.jpg";
 
 export default function About() {
     return (
@@ -17,6 +22,16 @@ export default function About() {
                         <br></br>
                         flavors that tantalize the taste buds and leave a lasting impression.
                     </p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+
+                <img src={adventure} width="500"></img>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
 
                 <h1 className={styles.title}>
                     Culinary Excellence
@@ -26,6 +41,15 @@ export default function About() {
                         <br></br>
                         with precision and care using only the finest, locally-sourced ingredients.
                     </p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <img src={atmosphere} width="500"></img>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
                 <h1 className={styles.title}>
                     Ambiance and Hospitality
                     </h1>
@@ -36,6 +60,17 @@ export default function About() {
                             <br></br>
                             every visit to Game day grill a memorable occasion.
                     </p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+
+                <img src={excellence} width="500"></img>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+
                 <h1 className={styles.title}>
                     Locally Inspired, Globaly Infused
                     </h1>
@@ -50,6 +85,15 @@ export default function About() {
                         <br></br>
                         new cuisine.
                     </p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <img src={infused} width="500"></img>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
                 <h1 className={styles.title}>
                     Join Us for a Culinary Adventure
                     </h1>
@@ -60,13 +104,44 @@ export default function About() {
                         <br></br>
                         immerse yourself in our warm ambiance, and create moments to cherish.
                         <br></br>
-                        Thank you for considering [Your Restaurant Name] for your dining escapades. We look forward
+                        Thank you for considering Game Day Grill for your dining escapades. We look forward
                         <br></br>
                         to serving you soon!
 
                     </p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+
+                <img src={journey} width="500"></img>
+                <br></br>
+                <p1></p1>
+
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p1></p1>
+                <br></br>
+                <p></p>
+                <br></br>
+                <p></p>
+                <br></br>
+                <p></p>
+                <br></br>
+                <p></p>
 
             </Stack>
         </div >
-    )
+    );
 }

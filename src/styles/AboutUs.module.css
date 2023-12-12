@@ -1,72 +1,14 @@
-@media (prefers-color-scheme: light) {
+.title {
+    color: black;
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
 
-    .text {
-        text-align: center;
-        font-size: 30px;
-        text-decoration: sans-serif;
-        color: rgb(156, 156, 156);
-        padding-top: 1%;
-        padding-bottom: 1%;
-    }
-
-    .title {
-        text-align: center;
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-        padding-top: 1%;
-        padding-bottom: 1%;
-    }
-
-
-    .backgroundImg {
-        height: 700px;
-        background-image: url("../assets/Backgrounds/home-background-1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 2000px;
-        position: relative;
-
-    }
-
-    .backgroundContent {
-        position: absolute;
-        top: 40%
-    }
-
-    .backgroundContent p {
-        font-size: 20px;
-    }
-
-    .headingPrimary {
-        color: var(--color-white);
-        font-size: 60px;
-        font-weight: 300;
-        text-transform: uppercase;
-        line-height: 1.1;
-        padding-bottom: 10px;
-    }
-
-    .headingPrimary span {
-        font-weight: 700;
-    }
-
-    .specialWord {
-        color: car(--color-primary);
-        font-weight: 700;
-    }
-
-    .textWhite {
-        color: var(--color-white);
-    }
-
-    @media screem and(max-width: 768px) {
-        .container {
-            padding: 0 200px;
-        }
-
-        .headingPrimary {
-            font-size: 45px;
-        }
-    }
-
+.text {
+    background-color: slategrey;
+    color: black;
+    font-size: 15px;
+    font-family: fantasy;
+    font-weight: 500;
 }

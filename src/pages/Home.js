@@ -1,37 +1,17 @@
-import styles from "../styles/AboutUs.module.css";
-import { Stack } from "@mui/system";
-import { AppBar, Button, Toolbar, Typography } from "@mui/material";
-import style from "../styles/Navbar.module.css";
-
-export default function home() {
+import styles from "../styles/Home.module.css";
+export default function Home() {
     return (
         <div>
-            <Stack>
-                <div className={styles.backgroundImg}>
-                    <div className={styles.backgroundContent}>
-                        <h1 className={styles.headingPrimary}>
-                            <span>welcome</span> to game day grill
+            <div className={styles.backgroundImg}>
+                <div className={styles.backgroundContent}>
+                    <h1 className={styles.headingPrimary}>
+                        |<span> welcome</span> to game day grill |
                     </h1>
-                    </div>
-                    <AppBar position="static" className={styles.main}>
-                        <Toolbar>
-                            <Stack
-                                width="50%"
-                                justifyContent="flex-end"
-                                direction="row"
-                                spacing={2}
-                            >
-                                <Button className={style.content} href="/"> Home </Button>
-                                <Button className={style.content} href="/menu">Menu</Button>
-                                <Button className={style.content} href="/contact">Contact</Button>
-                                <Button className={style.content} href="/reservation"> Reservation</Button >
-                                <Button className={style.content} href="/about"> About</Button >
-                            </Stack >
-                        </Toolbar >
-                    </AppBar >
+                    <p1 className={styles.specialWord}>Call <p3 className={styles.text}>(123)-456-7890</p3> in order to make a reservation</p1>
+                    <br></br>
+                    <p2 className={styles.specialWord}>or book through our website</p2>
                 </div>
-            </Stack>
+            </div>
         </div >
-
     )
 }
