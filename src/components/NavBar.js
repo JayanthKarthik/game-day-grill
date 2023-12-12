@@ -9,7 +9,7 @@ export default function NavBar() {
             <Toolbar>
                 <Stack width="50%" alignItems="center" direction="row" spacing={3}>
                     <a href="/" >
-                        <img src={logo} width={40}></img>
+                        <img src={logo} alt="logo" width={40}></img>
                     </a>
                     <Typography className={styles.content} sx={{ flexGrow: 1 }}>
                         <h3> Game Day Grill </h3>

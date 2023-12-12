@@ -1,6 +1,6 @@
-import { AppBar, Button, Toolbar, Typography } from "@mui/material";
-import styles from "../styles/Navbar.module.css";
+import { Button } from "@mui/material";
 import { Stack } from "@mui/system";
+import styles from "../styles/Navbar.module.css";
 const Footer = () => {
     return (
         <footer style={footerStyle}>

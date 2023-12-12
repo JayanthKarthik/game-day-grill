@@ -27,7 +27,7 @@ export default function About() {
                 <br></br>
                 <p1></p1>
 
-                <img src={adventure} width="500"></img>
+                <img src={adventure} alt="adventure" width="500"></img>
                 <br></br>
                 <p1></p1>
                 <br></br>
@@ -45,7 +45,7 @@ export default function About() {
                 <p1></p1>
                 <br></br>
                 <p1></p1>
-                <img src={atmosphere} width="500"></img>
+                <img src={atmosphere} alt="atmosphere" width="500"></img>
                 <br></br>
                 <p1></p1>
                 <br></br>
@@ -65,7 +65,7 @@ export default function About() {
                 <br></br>
                 <p1></p1>
 
-                <img src={excellence} width="500"></img>
+                <img src={excellence} alt="excellence" width="500"></img>
                 <br></br>
                 <p1></p1>
                 <br></br>
@@ -89,7 +89,7 @@ export default function About() {
                 <p1></p1>
                 <br></br>
                 <p1></p1>
-                <img src={infused} width="500"></img>
+                <img src={infused} alt="infused" width="500"></img>
                 <br></br>
                 <p1></p1>
                 <br></br>
@@ -114,7 +114,7 @@ export default function About() {
                 <br></br>
                 <p1></p1>
 
-                <img src={journey} width="500"></img>
+                <img src={journey} alt="journey" width="500"></img>
                 <br></br>
                 <p1></p1>
 
