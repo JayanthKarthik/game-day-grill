@@ -7,15 +7,15 @@ const Footer = () => {
             <Stack width="50%" justifyContent="flex-end" direction="row" spacing={10}>
                 <div>
                     <h1>FOOD</h1>
-                    <Button className={styles.content} href="/reservation"> Reservation</Button >
+                    <Button className={styles.content} href="#/reservation"> Reservation</Button >
                     <br></br>
-                    <Button className={styles.content} href="/menu">Menu</Button>
+                    <Button className={styles.content} href="#/menu">Menu</Button>
                 </div>
                 <div>
                     <h1>ABOUT</h1>
-                    <Button className={styles.content} href="/about"> About</Button >
+                    <Button className={styles.content} href="#/about"> About</Button >
                     <br></br>
-                    <Button className={styles.content} href="/contact">Contact</Button>
+                    <Button className={styles.content} href="#/contact">Contact</Button>
                 </div>
                 <div>
                     <p></p>

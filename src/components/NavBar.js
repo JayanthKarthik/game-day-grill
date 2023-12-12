@@ -8,7 +8,7 @@ export default function NavBar() {
         <AppBar position="static" className={styles.main}>
             <Toolbar>
                 <Stack width="50%" alignItems="center" direction="row" spacing={3}>
-                    <a href="/" >
+                    <a href="#/" >
                         <img src={logo} alt="logo" width={40}></img>
                     </a>
                     <Typography className={styles.content} sx={{ flexGrow: 1 }}>
@@ -21,7 +21,7 @@ export default function NavBar() {
                     direction="row"
                     spacing={2}
                 >
-                    <Button className={styles.content} href="/"> Home </Button>
+                    <Button className={styles.content} href="#/"> Home </Button>
                     <Button className={styles.content} href="#/menu">Menu</Button>
                     <Button className={styles.content} href="#/contact">Contact</Button>
                     <Button className={styles.content} href="#/reservation"> Reservation</Button >
