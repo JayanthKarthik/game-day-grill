@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router'
+import { Route, Routes, HashRouter } from 'react-router'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
@@ -10,8 +10,7 @@ import About from './pages/About'
 
 export default function App() {
   return (
-    <body>
-
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +20,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-
-    </body>
+    </HashRouter>
   );
 }
