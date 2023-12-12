@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/game-day-grill/static/css/main.3da5e809.css",
+    "main.js": "/game-day-grill/static/js/main.2c8bdc78.js",
+    "static/media/vegan-burger.png": "/game-day-grill/static/media/vegan-burger.c42fa92700ac14f880e8.png",
+    "static/media/spinach-artichoke-dip.png": "/game-day-grill/static/media/spinach-artichoke-dip.9f5a397d5a9a45ba33e9.png",
+    "static/media/contact-background-1.png": "/game-day-grill/static/media/contact-background-1.ef948bdd54f6b306466d.png",
+    "static/media/game-day-burger.png": "/game-day-grill/static/media/game-day-burger.38f72890d85837fc9cd8.png",
+    "static/media/margarita-pizza.png": "/game-day-grill/static/media/margarita-pizza.178d7dc5028972943457.png",
+    "static/media/home-background-1.png": "/game-day-grill/static/media/home-background-1.914ea2841ae618125014.png",
+    "static/media/dish2.png": "/game-day-grill/static/media/dish2.bac65150e0df72a61bb2.png",
+    "static/media/quesadilla.png": "/game-day-grill/static/media/quesadilla.2a360b9c867d2c179829.png",
+    "static/media/vegetarian-sliders.png": "/game-day-grill/static/media/vegetarian-sliders.860923e034bd1d37c057.png",
+    "static/media/dish1.png": "/game-day-grill/static/media/dish1.73c60b7a1d9e4ad45ed5.png",
+    "static/media/avocado-salad.png": "/game-day-grill/static/media/avocado-salad.38f55a0fefa62a2c0006.png",
+    "static/media/caesar-salad.png": "/game-day-grill/static/media/caesar-salad.71ad6e37eb9a54433f91.png",
+    "static/media/caprese-salad.png": "/game-day-grill/static/media/caprese-salad.a47e2ed0c803539fbfd9.png",
+    "static/media/steak-slider.png": "/game-day-grill/static/media/steak-slider.6d67359c9d025345f37c.png",
+    "static/media/brownie.png": "/game-day-grill/static/media/brownie.5724db1936218ab1c324.png",
+    "static/media/logo.png": "/game-day-grill/static/media/logo.ab8c0650451ff060bb12.png",
+    "static/media/sundea.png": "/game-day-grill/static/media/sundea.5a6c533c831ffeda3d17.png",
+    "static/media/lavacake-icecream.png": "/game-day-grill/static/media/lavacake-icecream.c5e8f7d49fac8153c932.png",
+    "static/media/atmosphere.jpg": "/game-day-grill/static/media/atmosphere.db0fad62172fe487eece.jpg",
+    "index.html": "/game-day-grill/index.html",
+    "main.3da5e809.css.map": "/game-day-grill/static/css/main.3da5e809.css.map",
+    "main.2c8bdc78.js.map": "/game-day-grill/static/js/main.2c8bdc78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3da5e809.css",
+    "static/js/main.2c8bdc78.js"
+  ]
+}
