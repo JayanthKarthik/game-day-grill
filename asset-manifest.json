@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-day-grill/static/css/main.3da5e809.css",
-    "main.js": "/game-day-grill/static/js/main.2c8bdc78.js",
+    "main.js": "/game-day-grill/static/js/main.a53778ce.js",
     "static/media/vegan-burger.png": "/game-day-grill/static/media/vegan-burger.c42fa92700ac14f880e8.png",
     "static/media/spinach-artichoke-dip.png": "/game-day-grill/static/media/spinach-artichoke-dip.9f5a397d5a9a45ba33e9.png",
     "static/media/contact-background-1.png": "/game-day-grill/static/media/contact-background-1.ef948bdd54f6b306466d.png",
@@ -23,10 +23,10 @@
     "static/media/atmosphere.jpg": "/game-day-grill/static/media/atmosphere.db0fad62172fe487eece.jpg",
     "index.html": "/game-day-grill/index.html",
     "main.3da5e809.css.map": "/game-day-grill/static/css/main.3da5e809.css.map",
-    "main.2c8bdc78.js.map": "/game-day-grill/static/js/main.2c8bdc78.js.map"
+    "main.a53778ce.js.map": "/game-day-grill/static/js/main.a53778ce.js.map"
   },
   "entrypoints": [
     "static/css/main.3da5e809.css",
-    "static/js/main.2c8bdc78.js"
+    "static/js/main.a53778ce.js"
   ]
 }
