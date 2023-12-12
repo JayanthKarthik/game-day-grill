@@ -22,10 +22,10 @@ export default function NavBar() {
                     spacing={2}
                 >
                     <Button className={styles.content} href="/"> Home </Button>
-                    <Button className={styles.content} href="/menu">Menu</Button>
-                    <Button className={styles.content} href="/contact">Contact</Button>
-                    <Button className={styles.content} href="/reservation"> Reservation</Button >
-                    <Button className={styles.content} href="/about"> About</Button >
+                    <Button className={styles.content} href="#/menu">Menu</Button>
+                    <Button className={styles.content} href="#/contact">Contact</Button>
+                    <Button className={styles.content} href="#/reservation"> Reservation</Button >
+                    <Button className={styles.content} href="#/about"> About</Button >
                 </Stack >
             </Toolbar >
         </AppBar >
