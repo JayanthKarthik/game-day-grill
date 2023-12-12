@@ -1,4 +1,5 @@
-import { Route, Routes, HashRouter } from 'react-router'
+import { Route, Routes } from 'react-router'
+import { HashRouter } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
