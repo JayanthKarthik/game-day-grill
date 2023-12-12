@@ -1,4 +1,4 @@
-import "../styles/Contact.Module.css";
+import "../styles/Contact.module.css";
 import sideImage from "../assets/Backgrounds/contact-background-1.png";
 export default function Contact() {
     return (
