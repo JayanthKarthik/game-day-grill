@@ -1,13 +1,13 @@
 
-name: Build & deploy
+name: Build & Deploy
 
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
