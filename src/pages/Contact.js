@@ -1,23 +1,17 @@
-import "../styles/Contact.module.css";
+import styles from "../styles/Contact.module.css";
 import sideImage from "../assets/Backgrounds/contact-background-1.png";
 export default function Contact() {
     return (
-        <div className="contact">
-            <div
-                className="leftSide"
-                style={{ backgroundImage: `url(${sideImage})` }}
-            ></div>
-            <div className="rightSide">
+        <div className={styles.contact}>
+            <img className={styles.leftSide} src={sideImage} alt="sideImage"/>
+            <div className={styles.rightSide}>
                 <h1> Contact Us</h1>
                 <form>
-                    <label htmlFor="name">Full Name</label>
-                    <input name="name" placeholder="Enter full name..." type="text" />
-                    <label htmlFor="email">Email</label>
-                    <input name="email" placeholder="Enter email..." type="email" />
-                    <label htmlFor="message">Message</label>
+                    <input name="name" placeholder="Name" type="text" required/>
+                    <input name="email" placeholder="Email" type="email" required/>
                     <textarea
                         rows="6"
-                        placeholder="Enter message..."
+                        placeholder="Enter message"
                         name="message"
                         required
                     ></textarea>
