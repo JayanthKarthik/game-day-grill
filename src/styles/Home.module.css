@@ -1,66 +1,42 @@
 @media (prefers-color-scheme: light) {
 
+    .container {
+        width: 100%;
+        height: 90vh;
+    }
 
     .backgroundImg {
-        height: 700px;
-        background-image: url("../assets/Backgrounds/home-background-1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 2000px;
-        position: relative;
-
+        height: 100%;
+        width: 100%;
     }
 
     .backgroundContent {
         position: absolute;
-        top: 40%
-    }
-
-    .backgroundContent p {
-        font-size: 20px;
+        top: 40vh;
+        background-color: rgba(40, 40, 40, 0.7);
+        margin-left: 5vw;
+        padding: 1vh 3vw;
+        border-radius: 20px;
     }
 
     .headingPrimary {
-        color: rgb(255, 255, 255);
-        font-size: 60px;
+        color: #F4F4F4;
+        font-size: 4rem;
         font-weight: 300;
         text-transform: uppercase;
         line-height: 1.1;
-        padding-bottom: 10px;
-        padding-left: 100px;
-    }
-
-    .headingPrimary span {
-        font-weight: 700;
-    }
-
-    .text {
-        color: rgb(255, 94, 0);
-        font-weight: 1000;
+        margin-bottom: 1vw;
     }
 
     .specialWord {
-        color: rgb(255, 255, 255);
-        font-weight: 700;
-        background-color: rgba(149, 149, 149, 0.253);
-        padding-left: 100px;
+        color: #F4F4F4;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 1.2rem;
     }
 
-    @media screem and(max-width: 768px) {
-        .container {
-            padding: 0 200px;
-        }
-
-        .headingPrimary {
-            font-size: 45px;
-        }
-
-        .main {
-            background-color: #222;
-            padding-top: 1%;
-            padding-bottom: 1%;
-        }
+    .specialWord strong {
+        color: orangered;
     }
-
-
 }

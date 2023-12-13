@@ -1,0 +1,17 @@
+.content {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2vh 2vw;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}

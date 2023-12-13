@@ -1,17 +1,15 @@
 import styles from "../styles/Home.module.css";
+import background from "../assets/Backgrounds/home-background-1.png";
 export default function Home() {
     return (
-        <div>
-            <div className={styles.backgroundImg}>
-                <div className={styles.backgroundContent}>
-                    <h1 className={styles.headingPrimary}>
-                        |<span> welcome</span> to game day grill |
-                    </h1>
-                    <p1 className={styles.specialWord}>Call <p3 className={styles.text}>(123)-456-7890</p3> in order to make a reservation</p1>
-                    <br></br>
-                    <p2 className={styles.specialWord}>or book through our website</p2>
-                </div>
+        <div className={styles.container}>
+            <img src={background} alt="background" className={styles.backgroundImg} />
+            <div className={styles.backgroundContent}>
+                <h1 className={styles.headingPrimary}>
+                    |<strong> welcome</strong> to game day grill|
+                </h1>
+                <p className={styles.specialWord}> Call <strong>(123)-456-7890</strong> to make a reservation or book through our website</p>
             </div>
-        </div >
+        </div>
     )
 }

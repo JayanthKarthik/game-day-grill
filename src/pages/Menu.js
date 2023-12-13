@@ -10,6 +10,7 @@ export default function Menu() {
                 {MenuList.map((menuItem, key) => {
                     return (
                         <MenuItem
+                            className={styles.menuItem}
                             key={key}
                             image={menuItem.image}
                             name={menuItem.name}
@@ -18,10 +19,6 @@ export default function Menu() {
                     );
                 })}
             </div>
-            <br></br>
-            <p></p>
-            <br></br>
-            <p></p>
         </div>
     );
 }
