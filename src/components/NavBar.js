@@ -11,8 +11,8 @@ export default function NavBar() {
                     <a href="#/" >
                         <img src={logo} alt="logo" width={40}></img>
                     </a>
-                    <Typography className={styles.content} sx={{ flexGrow: 1 }}>
-                        <h3> Game Day Grill </h3>
+                    <Typography variant='h6' className={styles.content} sx={{ flexGrow: 1 }}>
+                        Game Day Grill
                     </Typography>
                 </Stack>
                 <Stack
