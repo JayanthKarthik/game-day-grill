@@ -10,9 +10,9 @@ export default function About() {
     return (
         <Stack className={styles.container} direction="column" alignItems='center' spacing={10}>
 
-            <Stack direction="row" alignItems="center" spacing={15} width='70vw'>
-                <Stack width='35%' alignItems='flex-end'>
-                    <img src={adventure} alt="adventure" ></img>
+            <Stack direction="row" alignItems="center" spacing={10} width='70vw'>
+                <Stack width='35%'>
+                    <img src={adventure} alt="adventure" />
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>
@@ -28,8 +28,8 @@ export default function About() {
             </Stack>
 
             <Stack direction="row" alignItems="center" spacing={10} width='70vw'>
-                <Stack width='35%' alignItems='flex-end'>
-                    <img src={atmosphere} alt="atmosphere" width="500"></img>
+                <Stack width='35%'>
+                    <img src={atmosphere} alt="atmosphere" />
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>
@@ -43,8 +43,8 @@ export default function About() {
             </Stack>
 
             <Stack direction="row" alignItems="center" spacing={10} width='70vw'>
-                <Stack width='35%' alignItems='flex-end'>
-                    <img src={excellence} alt="excellence" width="500"></img>
+                <Stack width='35%'>
+                    <img src={excellence} alt="excellence" />
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>
@@ -59,8 +59,8 @@ export default function About() {
             </Stack>
 
             <Stack direction="row" alignItems="center" spacing={10} width='70vw'>
-                <Stack width='35%' alignItems='flex-end'>
-                    <img src={infused} alt="infused" width="500"></img>
+                <Stack width='35%'>
+                    <img src={infused} alt="infused" />
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>
@@ -78,8 +78,8 @@ export default function About() {
 
 
             <Stack direction="row" alignItems="center" spacing={10} width='70vw'>
-                <Stack width='35%' alignItems='flex-end'>
-                    <img src={journey} alt="journey" width="500"></img>
+                <Stack width='35%'>
+                    <img src={journey} alt="journey" />
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>Join Us for a Culinary Adventure</h1>

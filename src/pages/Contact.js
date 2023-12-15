@@ -2,6 +2,8 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import sideImage from "../assets/Backgrounds/contact-background-1.png";
 import styles from "../styles/Contact.module.css";
+import { firestore } from "../Firebase"
+import { addDoc, collection } from "firebase/firestore";
 
 export default function Contact() {
 
@@ -9,17 +11,27 @@ export default function Contact() {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-    const handleSubmit = (event) => {
-        
-        event.preventDefault()
-        
-        setName("");
-        setEmail("");
-        setMessage("");
+    const handleSubmit = async (event) => {
 
-        
-        
-        toast("Your message has been sent, we'll reach out soon!");
+        event.preventDefault();
+
+        try {
+            await addDoc(collection(firestore, "contact-us-messages"), {
+                name: name,
+                email: email,
+                message: message,
+                time: new Date().toISOString()
+            });
+
+            setName("");
+            setEmail("");
+            setMessage("");
+
+            toast("We got your message, we'll reach out soon!");
+
+        } catch {
+            return;
+        }
     }
 
     return (

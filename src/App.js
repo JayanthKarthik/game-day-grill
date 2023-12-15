@@ -1,4 +1,3 @@
-import { initializeApp } from "firebase/app"
 import { Route, Routes } from 'react-router'
 import { HashRouter } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
@@ -10,17 +9,6 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Reservation from './pages/Reservation'
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBxagc3Ny-54WgfvMqZfKC19_KRGK64hXY",
-  authDomain: "gamedaygrill-bb3f1.firebaseapp.com",
-  projectId: "gamedaygrill-bb3f1",
-  storageBucket: "gamedaygrill-bb3f1.appspot.com",
-  messagingSenderId: "896745156124",
-  appId: "1:896745156124:web:0cd5e0e0ad83c46a8b79d9"
-};
-
-initializeApp(firebaseConfig)
 
 export default function App() {
   return (
