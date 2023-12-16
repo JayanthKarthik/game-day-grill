@@ -1,9 +1,9 @@
+import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { firestore } from "../Firebase";
 import sideImage from "../assets/Backgrounds/contact-background-1.png";
 import styles from "../styles/Contact.module.css";
-import { firestore } from "../Firebase"
-import { addDoc, collection } from "firebase/firestore";
 
 export default function Contact() {
 
@@ -39,7 +39,7 @@ export default function Contact() {
             <img className={styles.leftSide} src={sideImage} alt="sideImage" />
             <div className={styles.rightSide}>
                 <h1> Contact Us</h1>
-                <form onSubmit={handleSubmit}>
+                <form className={styles.form} onSubmit={handleSubmit}>
                     <input
                         name="name"
                         placeholder="Name"
@@ -54,8 +54,8 @@ export default function Contact() {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required />
+
                     <textarea
-                        rows="6"
                         placeholder="Enter message"
                         name="message"
                         value={message}
