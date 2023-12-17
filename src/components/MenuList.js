@@ -78,7 +78,7 @@ export const MenuList = [
         name: "Vegan Burger",
         image: veganBurger,
         description: "Plant-based patty with lettuce, tomato, vegan cheese, and a special vegan sauce. Served with a side of quinoa salad.",
-        price: 11.00,
+        price: 10.99,
     },
     {
         name: "Game Day Grill Special",
@@ -90,7 +90,7 @@ export const MenuList = [
         name: "Brownie",
         image: brownie,
         description: "Warm chocolate brownie topped with vanilla ice cream and drizzled with chocolate sauce.",
-        price: 5.90,
+        price: 5.99,
     },
     {
         name: "Sundea",
