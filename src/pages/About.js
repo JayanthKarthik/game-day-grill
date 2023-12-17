@@ -48,7 +48,7 @@ export default function About() {
                 </Stack>
                 <Stack width='65%' alignItems='flex-start'>
                     <h1>
-                        Ambiance and Hospitality
+                        Ambience and Hospitality
                     </h1>
                     <p>
                         Step into an inviting and cozy atmosphere that sets the stage for a delightful dining
