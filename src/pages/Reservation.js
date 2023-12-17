@@ -98,72 +98,76 @@ export default function Reservation() {
 
 
     return (
-        <Stack spacing={10} alignItems='center'>
+        <div className={styles.container}>
 
             <h1 className={styles.title}>Table Reservation</h1>
 
-            <Stack direction='row' spacing={10} width='100%' justifyContent='center'>
+            <Stack spacing={10} alignItems='center'>
 
-                <Stack width='30%' alignItems='flex-end'>
-                    <Calendar onChange={handleDateChange} value={date} />
-                </Stack>
 
-                <Stack width='30%' alignItems='center' spacing={1}>
-                    <h1 className={styles.formTitle}>Available Times:</h1>
-                    <Grid container spacing={2}>
-                        {availableTimes.map(time => (
-                            <Grid item key={time}>
-                                <Button
-                                    variant='contained'
-                                    color={selectedTime === time ? 'secondary' : 'primary'}
-                                    onClick={() => handleTimeSelection(time)}>
+                <Stack direction='row' spacing={10} width='100%' justifyContent='center'>
 
-                                    {time}
-
-                                </Button>
-                            </Grid>
-                        ))}
-                    </Grid>
-                </Stack>
-
-            </Stack>
-
-            <Stack alignItems='center' className={styles.formContainer} width='25vw'>
-                <h1 className={styles.formTitle}>Your Reservation</h1>
-                <form onSubmit={handleReservation}>
-                    <Stack spacing={2} alignItems='center'>
-
-                        <Typography variant='p' className={styles.formText}>
-                            Selected Date: {date.toDateString()}
-                        </Typography>
-
-                        <Typography variant='p' className={styles.formText}>
-                            Selected Time: {selectedTime || 'Please select a time'}
-                        </Typography>
-
-                        <input
-                            name="name"
-                            placeholder="Name"
-                            type="text"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            required />
-
-                        <input
-                            name="phone"
-                            placeholder="Phone"
-                            type="tel"
-                            value={phone}
-                            onChange={(e) => setPhone(e.target.value)}
-                            required />
-
-                        <button type="submit"> Make Reservation </button>
+                    <Stack width='30%' alignItems='flex-end'>
+                        <Calendar onChange={handleDateChange} value={date} />
                     </Stack>
-                </form>
-            </Stack>
 
-            <spacing />
+                    <Stack width='30%' alignItems='center' spacing={1}>
+                        <h1 className={styles.formTitle}>Available Times:</h1>
+                        <Grid container spacing={2}>
+                            {availableTimes.map(time => (
+                                <Grid item key={time}>
+                                    <Button
+                                        variant='contained'
+                                        color={selectedTime === time ? 'secondary' : 'primary'}
+                                        onClick={() => handleTimeSelection(time)}>
 
-        </Stack >
+                                        {time}
+
+                                    </Button>
+                                </Grid>
+                            ))}
+                        </Grid>
+                    </Stack>
+
+                </Stack>
+
+                <Stack alignItems='center' className={styles.formContainer} width='25vw'>
+                    <h1 className={styles.formTitle}>Your Reservation</h1>
+                    <form onSubmit={handleReservation}>
+                        <Stack spacing={2} alignItems='center'>
+
+                            <Typography variant='p' className={styles.formText}>
+                                Selected Date: {date.toDateString()}
+                            </Typography>
+
+                            <Typography variant='p' className={styles.formText}>
+                                Selected Time: {selectedTime || 'Please select a time'}
+                            </Typography>
+
+                            <input
+                                name="name"
+                                placeholder="Name"
+                                type="text"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                required />
+
+                            <input
+                                name="phone"
+                                placeholder="Phone"
+                                type="tel"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
+                                required />
+
+                            <button type="submit"> Make Reservation </button>
+                        </Stack>
+                    </form>
+                </Stack>
+
+                <spacing />
+
+            </Stack >
+        </div>
     );
 };

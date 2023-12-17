@@ -19,7 +19,7 @@ export default function About() {
                         Our Culinary Journey
                     </h1>
                     <p>
-                        Indulge in a culinary experience like no other at Game day Grill. Established in 2023, we
+                        Indulge in a culinary experience like no other at Game Day Grill. Established in 2023, we
                         embarked on a gastronomic journey with a passion for creating memorable dining
                         moments. Our chefs, inspired by game day foods, are dedicated to delivering a symphony of
                         flavors that tantalize the taste buds and leave a lasting impression.
@@ -36,7 +36,7 @@ export default function About() {
                         Culinary Excellence
                     </h1>
                     <p>
-                        At GameDay Grill we believe in the artistry of food. Each dish is a masterpiece, crafted
+                        At Game Day Grill we believe in the artistry of food. Each dish is a masterpiece, crafted
                         with precision and care using only the finest, locally-sourced ingredients.
                     </p>
                 </Stack>

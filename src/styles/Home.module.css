@@ -1,42 +1,39 @@
-@media (prefers-color-scheme: light) {
+.container {
+    width: 100%;
+    height: 90vh;
+}
 
-    .container {
-        width: 100%;
-        height: 90vh;
-    }
+.backgroundImg {
+    height: 100%;
+    width: 100%;
+}
 
-    .backgroundImg {
-        height: 100%;
-        width: 100%;
-    }
+.backgroundContent {
+    position: absolute;
+    top: 40vh;
+    background-color: rgba(40, 40, 40, 0.7);
+    margin-left: 5vw;
+    padding: 1vh 3vw;
+    border-radius: 20px;
+}
 
-    .backgroundContent {
-        position: absolute;
-        top: 40vh;
-        background-color: rgba(40, 40, 40, 0.7);
-        margin-left: 5vw;
-        padding: 1vh 3vw;
-        border-radius: 20px;
-    }
+.headingPrimary {
+    color: #F4F4F4;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 1vw;
+}
 
-    .headingPrimary {
-        color: #F4F4F4;
-        font-size: 4rem;
-        font-weight: 300;
-        text-transform: uppercase;
-        line-height: 1.1;
-        margin-bottom: 1vw;
-    }
+.specialWord {
+    color: #F4F4F4;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
 
-    .specialWord {
-        color: #F4F4F4;
-        font-weight: 500;
-        border-radius: 20px;
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-
-    .specialWord strong {
-        color: orangered;
-    }
+.specialWord strong {
+    color: orangered;
 }
